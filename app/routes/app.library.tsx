@@ -1,8 +1,4 @@
-export const tabs = [
-  { id: 'song', title: 'Music' },
-  { id: 'podcast', title: 'Podcasts' },
-  { id: 'audiobooks', title: 'Audiobooks', disabled: true },
-];
+import { tabs } from '~/data/tabs';
 
 export default function LibraryPage() {
   return (
